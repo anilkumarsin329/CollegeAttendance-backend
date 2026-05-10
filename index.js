@@ -19,7 +19,8 @@ app.use(
     origin: [
       "http://localhost:5173",
       "http://localhost:5174",
-      "https://college-attendance-frontend.vercel.app"
+      "https://college-attendance-frontend.vercel.app",
+      /^https:\/\/college-attendance-frontend.*\.vercel\.app$/
     ],
     credentials: true,
   })
